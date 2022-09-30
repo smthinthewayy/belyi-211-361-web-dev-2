@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Форма обратной связи</title>
+    <title>Форма</title>
+</head>
+<body class="boddy">
+    <header class="site-header">
+        <div class="navigation">
+          <a href="index.html"><p>Моя страница</p></a>
+          <a href="index.html"><p>Обо мне</p></a>
+          <a href="index.html"><p>Ключевые навыки</p></a>
+          <a href="first_form.html"><p>Обратная связь</p></a>
+          <a href="secondform.html"><p>Войти</p></a>
+        </div>
+    </header>
+
+    <main class="mainn">
+        <div class="form-wrapper">
+            <p><form class="main-form" action="https://httpbin.org/post" method="POST">
+                <fieldset class="form-fieldsett">
+                    <label>Логин<input class="form-inputt" type="text" name="text-field" placeholder="Логин" required></label>
+                    <br>
+                    <label>Пароль<input class="form-inputt" type="password" name="text-field" placeholder="Пароль" required></label>
+                    <br>
+                    <label><span class="checkbox-wrapper"><input class="form-checkbox" type="checkbox" name="checked" value="1">Запомнить меня</label></span>
+                    <br>
+                    <input class="submit" type="submit" value="Зарегистрироваться">
+                </fieldset>
+            </form></p>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+          <p>Email: smthinthewayy@gmail.com</p>
+          <p>Phone: +7(921)0822272</p>
+        </div>
+      </footer>
+</body>

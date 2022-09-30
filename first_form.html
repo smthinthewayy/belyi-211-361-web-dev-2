@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="navigation">
+          <a href="index.html"><p>Моя страница</p></a>
+          <a href="index.html"><p>Обо мне</p></a>
+          <a href="index.html"><p>Ключевые навыки</p></a>
+          <a href="first_form.html"><p>Обратная связь</p></a>
+          <a href="secondform.html"><p>Войти</p></a>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="main-wrapper">
+            <p class="main-text">Форма обратной связи</p>
+            <form class="main-form" action="https://httpbin.org/post" method="POST"> <!-- устанавливаем форму на странице -->
+                <fieldset class="form-fieldset"> <!-- группируем элементы формы -->
+                    <!-- создаем обязательное для заполнения текстовое поле для ввода ФИО -->
+                    <label>ФИО<input class="form-input" type="text" name="text-field" placeholder="Ваше ФИО" required></label>
+                    <!-- создаем обязательное для заполнения текстовое поле для ввода почты -->
+                    <label>Email<input class="form-input" type="email" name="text-field" placeholder="Ваш email" required></label>
+                    <br>
+                    <!-- создаем обязательную для заполнения группу радиокнопок -->
+                    <label>Откуда узнали о нас<input class="form-input" type="radio" name="text-field" required>Из интернета <input class="form-input" type="radio" name="text-field" required> Рассказал друг <input class="form-input" type="radio" name="text-field" required> Из телевизора </label>
+                    <br>
+                    <!-- создаем обязательный для заполнения выпадающий список -->
+                    <label>Тип обращения<select class="form-input" name="user-appeal" required>
+                        <option value="1">Жалоба</option>
+                        <option value="2">Предложение</option>
+                        <option value="3">Отзыв</option>
+                      </select></label>
+                    <br>
+                    <!-- создаем обязательное для заполнения текстовое поле -->
+                    <label>Текст<textarea class="form-input" placeholder="Введите текст" required> </textarea></label>
+                    <br>
+                    <!-- создаем обязательное для заполнения файловое поле -->
+                    <label>Файл<input class="form-input" type="file" name="file" placeholder="Жалоба/предложение" required></label>
+                    <br>
+                    <!-- создаем обязательный для заполнения чекбокс -->
+                    <label><input class="form-checkbox" type="checkbox" name="checked" value="1" required>Даю согласие на обработку персональных данных</label></span>
+                    <br>
+                    <!-- создаем кнопку отправить -->
+                    <input class="submit" type="submit" value="Отправить">
+                </fieldset>
+            </form>
+            <p class="name-group-date">Белый Данила Юрьевич | 211-361 | 28.09.2022</p>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+          <p>Email: smthinthewayy@gmail.com</p>
+          <p>Phone: +7(921)0822272</p>
+        </div>
+    </footer>
+</body>
+</html>
