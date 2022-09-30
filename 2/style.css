@@ -13,19 +13,6 @@ body {
     padding: 35px;
 }
 
-.form-fieldset {
-    border: #ffffff solid;
-    background-color: #ffffff;
-    color:#ffffff;
-}
-
-.form-input {
-    background-color:#ffffff;
-    border: 0;
-    margin: 10px 20px;
-    color:#D8E9A8;
-}
-
 .form-checkbox {
     margin: 10px;
     background-color:#D8E9A8;
@@ -45,14 +32,14 @@ body {
     background-color: #191A19;
 }
 
-.form-inputt {
+.form-input {
     background-color:#191A19;
     border: 0;
     margin: 10px 20px;
     color:#ffffff;
 }
 
-.form-fieldsett {
+.form-fieldset {
     border: #000000 solid;
     background-color: #000000;
     opacity: 0.8;

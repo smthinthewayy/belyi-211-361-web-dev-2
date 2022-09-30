@@ -26,22 +26,3 @@
     color: #e4e4e4;
     background-color: #191A19;
 }
-
-.form-wrapper{
-    background-size: cover;
-    min-height: 300px;
-    padding-top: 300px;
-}
-
-.form-inputt {
-    background-color:#191A19;
-    border: 0;
-    margin: 10px 20px;
-    color:#e4e4e4;
-}
-
-.form-fieldsett {
-    border: #e4e4e4 solid;
-    background-color: #1e1f1e;
-    color:#1E5128;
-}
